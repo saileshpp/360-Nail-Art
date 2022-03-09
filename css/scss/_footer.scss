@@ -1,0 +1,39 @@
+footer {
+    background-color: var(--custom-primary);
+    padding: 40px 0;
+    color: #fff;
+    font-family: "Mulish" !important;
+    overflow: hidden;
+    .logo_wrap {
+        .logo {
+            display: block;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 40px;
+            transform: translateY(-73px);
+            padding-top: 50px;
+            z-index: 1041;
+            width: max-content;
+            img {
+                width: 100%;
+                max-width: 150px;
+                transition: var(--custom-transition);
+                z-index: 1041;
+            }
+        }
+    }
+    h3 {
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    ul {
+        margin-bottom: 20px;
+        li {
+            a {
+                color: #fff;
+                font-size: 18px;
+            }
+            margin-bottom: 15px;
+        }
+    }
+}
